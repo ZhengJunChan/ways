@@ -1,3 +1,17 @@
+## 项目启动
+
+### `yarn start`
+
+在开发环境运行项目，项目地址：http://localhost:3000。
+
+### `yarn storybook`
+
+查看项目相关API，项目地址：http://localhost:9001。
+
+<!-- 
+
+来自 [Create React App](https://github.com/facebook/create-react-app) 的md文档
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -65,4 +79,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify 
+
+-->
