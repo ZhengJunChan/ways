@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
@@ -12,7 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "mock": "node ./mock/start.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,6 +34,8 @@
     "@storybook/addon-notes": "^5.0.0",
     "@storybook/addons": "^5.0.0",
     "@storybook/react": "^5.0.0",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "mockjs": "^1.0.1-beta3"
   }
 }
