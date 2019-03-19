@@ -1,5 +1,5 @@
-import mockDishesApi from './routes/dishes';
+const mockDishesApi = require('./routes/dishes');
 
-export default (router) => {
+module.exports = (router) => {
   mockDishesApi(router);
-};
+}

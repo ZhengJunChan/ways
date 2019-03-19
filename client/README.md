@@ -1,10 +1,14 @@
 ## 项目启动
 
-### `yarn start`
+### `npm run start`
 
 在开发环境运行项目，项目地址：http://localhost:3000。
 
-### `yarn storybook`
+### `npm run start:mock`
+
+在开发环境运行项目，并使用本地模拟数据，项目地址：http://localhost:3000。
+
+### `npm run storybook`
 
 查看项目相关API，项目地址：http://localhost:9001。
 
